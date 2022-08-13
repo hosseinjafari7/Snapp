@@ -1,0 +1,383 @@
+@font-face{
+    font-family: 'iransens';
+    src: url('../fonts/iransens.woff2') format('woff2');
+}
+*{
+    font-family: 'iransens';
+}
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+//main code
+
+
+header{
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff!important;
+    .container{
+        width: 75%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        .logo{
+            width: 10%;
+        }
+        .mega-menu{
+            width: 80%;
+            nav{
+                ul{
+                    display: flex;
+                    li{
+                        margin: 0 2%;
+                        a{
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+section#banner{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    .intro{
+        width: 50%;
+        height: 100%;
+        background: #21aa58;
+        display: flex;
+        align-items: center;
+        position: relative;
+        .container{
+            position: absolute;
+            left: 6%;
+            width: 70%;
+            height: 85%;
+            h1{
+                color: #fff;
+                font-size: 2.5rem;
+                line-height: 1.3;
+                font-weight: bold;
+            }
+            p{
+                margin-top: 6%;
+                color: #fff;
+                font-size: 1.4rem;
+                line-height: 1.4;
+                font-weight: 100;
+            }
+            .number-input{
+                width: 75%;
+                margin-top: 4%;
+                input{
+                    color: #fff;
+                    width: 60%;
+                    line-height: 3;
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    border-bottom: 1px solid #fff;
+                    &::placeholder{
+                        color: #fff;
+                    }
+                }
+                button{
+                    color: #00d16f;
+                    font-size: 1.2rem;
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    margin-right: 2%;
+                    padding: 2% 7%;
+                    box-sizing: border-box;
+                    cursor: pointer;
+                }
+            }
+            .web-app-button{
+                margin-top: 6%;
+                button{
+                    width: 45%;
+                    color: #fff;
+                    border: 1px solid #fff;
+                    background: transparent;
+                    border-radius: 5px;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    padding: 1.5%;
+                    box-sizing: border-box;
+                    &:hover{
+                        cursor: pointer;
+                        background: rgba(255, 255, 255, 0.1);
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+    }
+    .wallpaper{
+        width: 50%;
+        height: 100%;
+        background: url('../images/wall.jpg');
+        background-position: right center;
+        background-size: cover;
+    }
+}
+section#download{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        width: 75%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 15%;
+            margin: 0 3%;
+            cursor: pointer;
+        }
+    }
+}
+section#snapp-use{
+    height: 850px;
+    background: #f2f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 70%;
+        height: 90%;
+        h2{
+            text-align: center;
+            font-size: 2.2rem;
+            font-weight: bold;
+        }
+        .apps{
+            width: 100%;
+            margin-top: 5%;
+            display: flex;
+            flex-wrap: wrap;
+            .app{
+                width: 30%;
+                background: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 20px;
+                padding: 1%;
+                box-sizing: border-box;
+                margin: 1%;
+                cursor: pointer;
+                .right{
+                    width: 25%;
+                    img{
+                        width: 90%;
+                    }
+                }
+                .left{
+                    width: 75%;
+                    h3{
+                        line-height: 2;
+                    }
+                    p{
+                        font-size: .9rem;
+                        color: #a3a3a3;
+                    }
+                }
+            }
+        }
+    }
+}
+section#food-banner{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 70%;
+        height: 70%;
+        background: url('../images/Food.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+section#join-snapp{
+    width: 100%;
+    height: 700px;
+    background: #f2f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 70%;
+        height: 100%;
+        position: relative;
+        h2{
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 3% 0;
+        }
+        p{
+            text-align: center;
+            font-size: 1.3rem;
+            margin: 3% 0;
+        }
+        button{
+            border: none;
+            outline: none;
+            border-radius: 15px;
+            background: #00d16f;
+            color: #fff;
+            font-size: 1.3rem;
+            padding: 1% 4%;
+            box-sizing: border-box;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+        }
+        video{
+            width: 100%;
+            height: 50%;
+            margin-top: 10%;
+        }
+    }
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 80%;
+        height: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footer-mega-menu{
+            width: 70%;
+            nav{
+                ul{
+                    display: flex;
+                    li{
+                        margin: 0 2%;
+                        a{
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

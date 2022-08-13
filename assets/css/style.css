@@ -1,0 +1,508 @@
+@font-face {
+  font-family: 'iransens';
+  src: url("../fonts/iransens.woff2") format("woff2");
+}
+
+* {
+  font-family: 'iransens';
+}
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+header {
+  height: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff !important;
+}
+
+header .container {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .logo {
+  width: 10%;
+}
+
+header .container .mega-menu {
+  width: 80%;
+}
+
+header .container .mega-menu nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .mega-menu nav ul li {
+  margin: 0 2%;
+}
+
+header .container .mega-menu nav ul li a {
+  color: #000;
+}
+
+section#banner {
+  width: 100%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#banner .intro {
+  width: 50%;
+  height: 100%;
+  background: #21aa58;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+section#banner .intro .container {
+  position: absolute;
+  left: 6%;
+  width: 70%;
+  height: 85%;
+}
+
+section#banner .intro .container h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+section#banner .intro .container p {
+  margin-top: 6%;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 100;
+}
+
+section#banner .intro .container .number-input {
+  width: 75%;
+  margin-top: 4%;
+}
+
+section#banner .intro .container .number-input input {
+  color: #fff;
+  width: 60%;
+  line-height: 3;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+}
+
+section#banner .intro .container .number-input input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+section#banner .intro .container .number-input input:-ms-input-placeholder {
+  color: #fff;
+}
+
+section#banner .intro .container .number-input input::-ms-input-placeholder {
+  color: #fff;
+}
+
+section#banner .intro .container .number-input input::placeholder {
+  color: #fff;
+}
+
+section#banner .intro .container .number-input button {
+  color: #00d16f;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-right: 2%;
+  padding: 2% 7%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+section#banner .intro .container .web-app-button {
+  margin-top: 6%;
+}
+
+section#banner .intro .container .web-app-button button {
+  width: 45%;
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section#banner .intro .container .web-app-button button:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+section#banner .wallpaper {
+  width: 50%;
+  height: 100%;
+  background: url("../images/wall.jpg");
+  background-position: right center;
+  background-size: cover;
+}
+
+section#download {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#download .container {
+  width: 75%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#download .container img {
+  width: 15%;
+  margin: 0 3%;
+  cursor: pointer;
+}
+
+section#snapp-use {
+  height: 850px;
+  background: #f2f5f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#snapp-use .container {
+  width: 70%;
+  height: 90%;
+}
+
+section#snapp-use .container h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+section#snapp-use .container .apps {
+  width: 100%;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section#snapp-use .container .apps .app {
+  width: 30%;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  padding: 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 1%;
+  cursor: pointer;
+}
+
+section#snapp-use .container .apps .app .right {
+  width: 25%;
+}
+
+section#snapp-use .container .apps .app .right img {
+  width: 90%;
+}
+
+section#snapp-use .container .apps .app .left {
+  width: 75%;
+}
+
+section#snapp-use .container .apps .app .left h3 {
+  line-height: 2;
+}
+
+section#snapp-use .container .apps .app .left p {
+  font-size: .9rem;
+  color: #a3a3a3;
+}
+
+section#food-banner {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#food-banner .container {
+  width: 70%;
+  height: 70%;
+  background: url("../images/Food.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+section#join-snapp {
+  width: 100%;
+  height: 700px;
+  background: #f2f5f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#join-snapp .container {
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+
+section#join-snapp .container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 3% 0;
+}
+
+section#join-snapp .container p {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 3% 0;
+}
+
+section#join-snapp .container button {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background: #00d16f;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 1% 4%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+}
+
+section#join-snapp .container video {
+  width: 100%;
+  height: 50%;
+  margin-top: 10%;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container {
+  width: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .footer-mega-menu {
+  width: 70%;
+}
+
+footer .container .footer-mega-menu nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .container .footer-mega-menu nav ul li {
+  margin: 0 2%;
+}
+
+footer .container .footer-mega-menu nav ul li a {
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
